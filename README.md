@@ -1,39 +1,39 @@
-🚀 SpaceGuard — Sistema Inteligente de Monitoramento Espacial
+## 🚀 SpaceGuard — Sistema Inteligente de Monitoramento Espacial
 
 
-📌 Visão Geral
+## 📌 Visão Geral
 O SpaceGuard é um sistema de monitoramento em tempo real desenvolvido para simulação de cápsulas espaciais. O projeto integra computação física, processamento de dados e visão computacional, utilizando Python e OpenCV para criar uma interface intuitiva no estilo "painel de controle" de uma nave espacial.
 
 O sistema processa dados de sensores (temperatura e luminosidade) e gera alertas automáticos de segurança, simulando os desafios de um ambiente crítico de missão espacial.
 
 
-🎯 Objetivo
+## 🎯 Objetivo
 Garantir o monitoramento contínuo de variáveis ambientais críticas dentro de uma cápsula espacial simulada, fornecendo:
 
-Monitoramento: Visualização em tempo real de métricas.
+- Monitoramento: Visualização em tempo real de métricas.
 
-Diagnóstico: Classificação automática de risco baseada em thresholds.
+- Diagnóstico: Classificação automática de risco baseada em thresholds.
 
-Interface: Experiência imersiva com visual cockpit.
+- Interface: Experiência imersiva com visual cockpit.
 
-Simulação: Replicação fiel de sistemas de telemetria aeroespacial.
+- Simulação: Replicação fiel de sistemas de telemetria aeroespacial.
 
 
-⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 🌡️ Telemetria em Tempo Real
-Monitoramento de Temperatura (°C).
+- Monitoramento de Temperatura (°C).
 
-Monitoramento de Luminosidade (%).
+- Monitoramento de Luminosidade (%).
 
-🖥️ Interface Gráfica Dinâmica
-Interface construída nativamente com OpenCV.
+## 🖥️ Interface Gráfica Dinâmica
+- Interface construída nativamente com OpenCV.
 
-Estilo de cockpit espacial (Cápsula: ISIS-IX).
+- Estilo de cockpit espacial (Cápsula: ISIS-IX).
 
-Atualização de frames em tempo real.
+- Atualização de frames em tempo real.
 
 
-🚨 Sistema de Alertas Inteligentes
+## 🚨 Sistema de Alertas Inteligentes
 Classificação automática do estado da cápsula:
 
 🟢 OPERACIONAL
@@ -43,69 +43,69 @@ Classificação automática do estado da cápsula:
 🔴 PERIGO CRÍTICO
 
 📊 Visualização de Dados
-Histórico gráfico de temperatura.
+- Histórico gráfico de temperatura.
 
-Barras de progresso dinâmicas.
+- Barras de progresso dinâmicas.
 
-Indicadores visuais de status (Gauges).
+- Indicadores visuais de status (Gauges).
 
 ⚠️ Modo de Emergência
 Alertas visuais intermitentes em situações de perigo crítico.
 
 
-🧠 Tecnologias Utilizadas
-Python 3.x
+## 🧠 Tecnologias Utilizadas
+- Python 3.x
 
-OpenCV (cv2): Renderização gráfica e processamento de imagem.
+- OpenCV (cv2): Renderização gráfica e processamento de imagem.
 
-NumPy: Processamento numérico e manipulação de arrays.
+- NumPy: Processamento numérico e manipulação de arrays.
 
 
-🚀 Como Executar
-📦 Pré-requisitos
+## 🚀 Como Executar
+- 📦 Pré-requisitos
 Certifique-se de ter o Python instalado e instale as dependências:
 
-Bash
-pip install opencv-python numpy
+**Bash**
+`pip install opencv-python numpy`
+
 ▶️ Execução
 Clone este repositório:
 
-
 Bash
-git clone <url-do-repositorio>
+`git clone <url-do-repositorio>`
 Acesse a pasta do projeto:
 
 
 Bash
-cd spaceguard
+`cd spaceguard`
 Execute o sistema:
 
 
 Bash
-python main.py
+`python main.py`
 ⌨️ Controles
 Pressione ESC a qualquer momento para encerrar a simulação.
 
 
-🧩 Arquitetura do Sistema
-desenhar_card_transparente(): Função auxiliar para a criação de elementos visuais com efeito glassmorphism.
+## 🧩 Arquitetura do Sistema
+- desenhar_card_transparente(): Função auxiliar para a criação de elementos visuais com efeito glassmorphism.
 
-Loop Principal: Gerencia a amostragem de dados a cada 2 segundos, valida condições de segurança e renderiza a interface.
+- Loop Principal: Gerencia a amostragem de dados a cada 2 segundos, valida condições de segurança e renderiza a interface.
 
-Renderização: Utilização intensiva de primitivas gráficas (cv2.putText, cv2.rectangle, cv2.circle).
-
-
-📈 Possíveis Melhorias
-Integração com hardware real (IoT / ESP32).
-
-Protocolo de comunicação MQTT.
-
-Expansão para Dashboard Web (Flask ou Node-RED).
-
-Implementação de modelos de Machine Learning para predição de falhas.
+- Renderização: Utilização intensiva de primitivas gráficas (cv2.putText, cv2.rectangle, cv2.circle).
 
 
-👥 Integrantes
+## 📈 Possíveis Melhorias
+- Integração com hardware real (IoT / ESP32).
+
+- Protocolo de comunicação MQTT.
+
+- Expansão para Dashboard Web (Flask ou Node-RED).
+
+- Implementação de modelos de Machine Learning para predição de falhas.
+
+
+## 👥 Integrantes
 Gustavo Vieira Lopes Martins — RM555885
 
 Gustavo Yuji Osugi — RM555034
@@ -116,5 +116,5 @@ Otávio Santos de Lima Ferrão — RM556452
 
 Vitor Rivas Cardoso — RM556404
 
-🛰️ Observação Final
+## 🛰️ Observação Final
 Este projeto simula um sistema crítico de monitoramento espacial com foco em visualização em tempo real, lógica de estados e interface inspirada em sistemas aeroespaciais reais.
