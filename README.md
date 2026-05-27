@@ -113,8 +113,6 @@ Pressione ESC a qualquer momento para encerrar a simulação em python.
 ## 📈 Possíveis Melhorias
 - Integração com hardware real (IoT / ESP32).
 
-- Expansão para Dashboard Web (Flask ou Node-RED).
-
 - Implementação de modelos de Machine Learning para predição de falhas.
 
 
@@ -135,3 +133,12 @@ Este projeto simula um sistema crítico de monitoramento espacial com foco em vi
 
 ## Prototipo no Wokwi
 `https://wokwi.com/projects/465112817023960065`
+<img width="1655" height="729" alt="image" src="https://github.com/user-attachments/assets/03b4542e-f314-4cba-a33d-995ad3c553f3" />
+
+
+## Dashboard no Node-RED
+<img width="1869" height="911" alt="image" src="https://github.com/user-attachments/assets/9f5a8d96-9bf0-4833-a0f5-8321070b7621" />
+
+## Dashboard Simulado em Python
+<img width="1274" height="745" alt="image" src="https://github.com/user-attachments/assets/cfc45c38-d491-49c0-afb4-4a64fa1683e8" />
+
