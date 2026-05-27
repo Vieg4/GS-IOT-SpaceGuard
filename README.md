@@ -86,6 +86,9 @@ Bash
 ⌨️ Controles
 Pressione ESC a qualquer momento para encerrar a simulação.
 
+## Node-RED
+Instale o Node-RED e importe o json
+
 
 ## 🧩 Arquitetura do Sistema
 - desenhar_card_transparente(): Função auxiliar para a criação de elementos visuais com efeito glassmorphism.
@@ -97,8 +100,6 @@ Pressione ESC a qualquer momento para encerrar a simulação.
 
 ## 📈 Possíveis Melhorias
 - Integração com hardware real (IoT / ESP32).
-
-- Protocolo de comunicação MQTT.
 
 - Expansão para Dashboard Web (Flask ou Node-RED).
 
@@ -118,3 +119,7 @@ Vitor Rivas Cardoso — RM556404
 
 ## 🛰️ Observação Final
 Este projeto simula um sistema crítico de monitoramento espacial com foco em visualização em tempo real, lógica de estados e interface inspirada em sistemas aeroespaciais reais.
+
+
+## Prototipo no Wokwi
+`https://wokwi.com/projects/465112817023960065`
