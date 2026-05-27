@@ -140,5 +140,6 @@ Este projeto simula um sistema crítico de monitoramento espacial com foco em vi
 <img width="1869" height="911" alt="image" src="https://github.com/user-attachments/assets/9f5a8d96-9bf0-4833-a0f5-8321070b7621" />
 
 ## Dashboard Simulado em Python
-<img width="1274" height="745" alt="image" src="https://github.com/user-attachments/assets/cfc45c38-d491-49c0-afb4-4a64fa1683e8" />
+<img width="1277" height="744" alt="image" src="https://github.com/user-attachments/assets/6973f370-0edc-4e34-9138-8c5b933ba179" />
+
 
