@@ -68,7 +68,10 @@ Certifique-se de ter o Python instalado e instale as dependências:
 **Bash**
 `pip install opencv-python numpy`
 
-▶️ Execução
+### Node-RED
+Instale o Node-RED e importe o flow.json
+
+## ▶️ Execução
 Clone este repositório:
 
 Bash
@@ -83,12 +86,21 @@ Execute o sistema:
 
 Bash
 `python main.py`
-⌨️ Controles
-Pressione ESC a qualquer momento para encerrar a simulação.
 
-## Node-RED
-Instale o Node-RED e importe o json
 
+Abra o Wokwi e execute a simulação
+
+Abra o Node-RED e importe o flow.json
+
+Voce pode alterar as informações de Temperatura e Luminosidade no proprio Wokwi
+
+Na aba de Debug do Node-RED voce vai ver as informações sendo atualizadas em tempo real
+
+Na aba de dashboard voce vera um esboço dos graficos e informações sendo registradas
+
+
+## ⌨️ Controles
+Pressione ESC a qualquer momento para encerrar a simulação em python.
 
 ## 🧩 Arquitetura do Sistema
 - desenhar_card_transparente(): Função auxiliar para a criação de elementos visuais com efeito glassmorphism.
