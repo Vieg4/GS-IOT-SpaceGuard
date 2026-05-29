@@ -130,6 +130,8 @@ Vitor Rivas Cardoso — RM556404
 ## 🛰️ Observação Final
 Este projeto simula um sistema crítico de monitoramento espacial com foco em visualização em tempo real, lógica de estados e interface inspirada em sistemas aeroespaciais reais.
 
+## Video explicativo
+`https://youtu.be/LvVqCx4oHGU`
 
 ## Prototipo no Wokwi
 `https://wokwi.com/projects/465112817023960065`
